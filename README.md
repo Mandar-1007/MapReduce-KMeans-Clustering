@@ -41,10 +41,13 @@ The dataset with points labeled by their assigned cluster centers.
 # Clustering Evaluation
 Evaluation Metric:
 1) Silhouette Score
+
 Measures the quality of clustering by comparing intra-cluster cohesion and inter-cluster separation.
+
 Implemented using MapReduce
-=> Mapper: Computes distances between points and clusters.
-=> Reducer: Aggregates results to compute the Silhouette score for each cluster and overall dataset.
+- Mapper: Computes distances between points and clusters.
+- Reducer: Aggregates results to compute the Silhouette score for each cluster and overall dataset.
+
 **Purpose:**
 Evaluate and compare the performance of different K-means variations
 
