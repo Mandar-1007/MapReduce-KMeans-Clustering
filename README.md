@@ -36,7 +36,7 @@ The project produces two types of outputs:
 1) Cluster Centers:
 Final cluster centers with a flag indicating whether convergence was reached.
 2) Clustered Data:
-3) The dataset with points labeled by their assigned cluster centers.
+The dataset with points labeled by their assigned cluster centers.
 
 # Clustering Evaluation
 Evaluation Metric:
